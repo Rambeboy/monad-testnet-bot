@@ -1,0 +1,35 @@
+{
+  "network": {
+    "rpc": "https://testnet-rpc.monad.xyz/",
+    "explorer": "https://testnet.monadexplorer.com/tx/",
+    "api": "https://testnet.monadexplorer.com"
+  },
+  "apis": {
+    "liquidStaking": "https://liquid-staking-backend-prod-b332fbe9ccfe.herokuapp.com",
+    "blockvision": "https://monad-api.blockvision.org/testnet/api"
+  },
+  "contracts": {
+    "wmon": "0x760AfE86e5de5fa0Ee542fc7B7B713e1c5425701",
+    "apriori": "0xb2f82D0f38dc453D596Ad40A37799446Cc89274A",
+    "magma": "0x2c9C959516e9AAEdB2C748224a41249202ca8BE7",
+    "nft": "0x3E0be01dB04BfD5931597611355E376323D99d5e"
+  },
+  "cycles": {
+    "default": 5,
+    "cooldownTime": 43200000,
+    "delays": {
+      "min": 60000,
+      "max": 180000
+    },
+    "amounts": {
+      "min": 0.01,
+      "max": 0.05
+    }
+  },
+  "gas": {
+    "stake": 500000,
+    "unstake": 800000,
+    "claim": 800000,
+    "maxGwei": 60
+  }
+}
